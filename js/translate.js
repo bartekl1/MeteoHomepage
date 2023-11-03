@@ -1,4 +1,4 @@
-const textTranslations = ["Stacja meteo"];
+const textTranslations = ["Stacja meteo", "Przejdź"];
 
 const titleTranslations = {
     "Meteo station": "Stacja meteo",

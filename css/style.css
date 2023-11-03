@@ -1,8 +1,12 @@
+body {
+    padding-top: 10px;
+}
+
 #background-video {
     position: fixed;
-    top: 0;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
@@ -10,4 +14,28 @@
 
 #title {
     text-shadow: 2px 2px 6px #4f4f4f;
+
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: #ffffff17;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+
+    min-height: 400px;
+}
+
+.meteo-icon {
+    max-height: 290px;
+    max-width: 290px;
+    margin-left: calc((100% - 290px) / 2);
+}
+
+.pma-icon {
+    max-height: 290px;
+    max-width: 290px;
+    margin-left: calc((100% - 290px) / 2);
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
