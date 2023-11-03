@@ -3,4 +3,11 @@
     top: 0;
     left: 50%;
     transform: translate(-50%, 0);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#title {
+    text-shadow: 2px 2px 6px #4f4f4f;
 }
